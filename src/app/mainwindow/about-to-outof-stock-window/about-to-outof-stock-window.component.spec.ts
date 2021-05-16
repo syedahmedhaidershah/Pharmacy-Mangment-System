@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { AboutToOutofStockWindowComponent } from './about-to-outof-stock-window.component';
 
@@ -6,7 +6,7 @@ describe('AboutToOutofStockWindowComponent', () => {
   let component: AboutToOutofStockWindowComponent;
   let fixture: ComponentFixture<AboutToOutofStockWindowComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ AboutToOutofStockWindowComponent ]
     })

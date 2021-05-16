@@ -202,7 +202,7 @@ const appRoutes: Routes =[
     BrowserModule,
     AppRoutingModule,
     ChartsModule,
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes, { relativeLinkResolution: 'legacy' }),
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,

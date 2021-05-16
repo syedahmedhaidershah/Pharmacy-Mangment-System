@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { APredictionReportWindowComponent } from './a-prediction-report-window.component';
 
@@ -6,7 +6,7 @@ describe('APredictionReportWindowComponent', () => {
   let component: APredictionReportWindowComponent;
   let fixture: ComponentFixture<APredictionReportWindowComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ APredictionReportWindowComponent ]
     })

@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { ExpiredateWindowItemComponent } from './expiredate-window-item.component';
 
@@ -6,7 +6,7 @@ describe('ExpiredateWindowItemComponent', () => {
   let component: ExpiredateWindowItemComponent;
   let fixture: ComponentFixture<ExpiredateWindowItemComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ ExpiredateWindowItemComponent ]
     })

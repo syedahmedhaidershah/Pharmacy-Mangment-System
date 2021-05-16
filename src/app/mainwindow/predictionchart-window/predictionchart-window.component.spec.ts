@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { PredictionchartWindowComponent } from './predictionchart-window.component';
 
@@ -6,7 +6,7 @@ describe('PredictionchartWindowComponent', () => {
   let component: PredictionchartWindowComponent;
   let fixture: ComponentFixture<PredictionchartWindowComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ PredictionchartWindowComponent ]
     })

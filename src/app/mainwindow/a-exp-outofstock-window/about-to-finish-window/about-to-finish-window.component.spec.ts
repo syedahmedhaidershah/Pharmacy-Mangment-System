@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { AboutToFinishWindowComponent } from './about-to-finish-window.component';
 
@@ -6,7 +6,7 @@ describe('AboutToFinishWindowComponent', () => {
   let component: AboutToFinishWindowComponent;
   let fixture: ComponentFixture<AboutToFinishWindowComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ AboutToFinishWindowComponent ]
     })
