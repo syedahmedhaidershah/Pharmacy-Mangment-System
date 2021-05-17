@@ -38,7 +38,6 @@
             "scripts": [
               "node_modules/flickity/dist/flickity.pkgd.min.js",
               "node_modules/chartist/dist/chartist.min.js",
-              "node_modules/hammerjs/hammer.min.js",
               "node_modules/chart.js/dist/Chart.js",
               "node_modules/flickity/dist/flickity.pkgd.min.js"
 
